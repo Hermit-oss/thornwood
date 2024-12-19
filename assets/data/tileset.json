@@ -1,0 +1,107 @@
+{
+    "grass_plain": {
+        "position": [5, 2],
+        "weight": 0.8,
+        "generatable": true
+    },
+    "grass_small": {
+        "position": [8, 0],
+        "weight": 0.8,
+        "generatable": true
+    },
+    "bush_edge_up_left": {
+        "position": [9, 0],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "bush_edge_up": {
+        "position": [10, 0],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "bush_edge_up_right": {
+        "position": [11, 0],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "bush_edge_left": {
+        "position": [9, 1],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "bush_center": {
+        "position": [10, 1],
+        "weight": 0.5,
+        "collidable": true
+    },
+    "bush_edge_right": {
+        "position": [11, 1],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "bush_edge_down_left": {
+        "position": [9, 2],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "bush_edge_down": {
+        "position": [10, 2],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "bush_edge_down_right": {
+        "position": [11, 2],
+        "weight": 0.3,
+        "collidable": true
+    },
+    "path_edge_up_left": {
+        "position": [0, 4],
+        "weight": 0.4
+    },
+    "path_edge_up": {
+        "position": [1, 4],
+        "weight": 0.4
+    },
+    "path_edge_up_right": {
+        "position": [2, 4],
+        "weight": 0.4
+    },
+    "path_edge_left": {
+        "position": [0, 5],
+        "weight": 0.4
+    },
+    "path_center": {
+        "position": [1, 5],
+        "weight": 0.6
+    },
+    "path_edge_right": {
+        "position": [2, 5],
+        "weight": 0.4
+    },
+    "path_edge_down_left": {
+        "position": [0, 6],
+        "weight": 0.4
+    },
+    "path_edge_down": {
+        "position": [1, 6],
+        "weight": 0.4
+    },
+    "path_edge_down_right": {
+        "position": [2, 6],
+        "weight": 0.4
+    },
+    "rock1": {
+        "position": [9, 5],
+        "weight": 0.0,
+        "collidable": true
+    },
+    "rock2": {
+        "position": [10, 5],
+        "weight": 0.0,
+        "collidable": true
+    },
+    "flower": {
+        "position": [10, 6],
+        "weight": 0.0
+    }
+}

@@ -1,0 +1,442 @@
+{
+    "grass_plain": {
+        "up": {
+            "grass_plain": 1.0,
+            "grass_small": 0.1,
+            "bush_edge_down_left": 0.6,
+            "bush_edge_down": 0.6,
+            "bush_edge_down_right": 0.6,
+            "path_edge_down_left": 0.6,
+            "path_edge_down": 0.6,
+            "path_edge_down_right": 0.6
+        },
+        "down": {
+            "grass_plain": 1.0,
+            "grass_small": 0.1,
+            "bush_edge_up_left": 0.6,
+            "bush_edge_up": 0.6,
+            "bush_edge_up_right": 0.6,
+            "path_edge_up_left": 0.6,
+            "path_edge_up": 0.6,
+            "path_edge_up_right": 0.6
+        },
+        "left": {
+            "grass_plain": 1.0,
+            "grass_small": 0.1,
+            "bush_edge_down_right": 0.6,
+            "bush_edge_right": 0.6,
+            "bush_edge_up_right": 0.6,
+            "path_edge_down_right": 0.6,
+            "path_edge_right": 0.6,
+            "path_edge_up_right": 0.6
+        },
+        "right": {
+            "grass_plain": 1.0,
+            "grass_small": 0.1,
+            "bush_edge_down_left": 0.6,
+            "bush_edge_left": 0.6,
+            "bush_edge_up_left": 0.6,
+            "path_edge_down_left": 0.6,
+            "path_edge_left": 0.6,
+            "path_edge_up_left": 0.6
+        }
+    },
+    "grass_small": {
+        "up": {
+            "grass_plain": 0.1,
+            "grass_small": 1.0,
+            "bush_edge_down_left": 0.5,
+            "bush_edge_down": 0.5,
+            "bush_edge_down_right": 0.5,
+            "path_edge_down_left": 0.5,
+            "path_edge_down": 0.5,
+            "path_edge_down_right": 0.5
+        },
+        "down": {
+            "grass_plain": 0.1,
+            "grass_small": 1.0,
+            "bush_edge_up_left": 0.5,
+            "bush_edge_up": 0.5,
+            "bush_edge_up_right": 0.5,
+            "path_edge_up_left": 0.5,
+            "path_edge_up": 0.5,
+            "path_edge_up_right": 0.5
+        },
+        "left": {
+            "grass_plain": 0.1,
+            "grass_small": 1.0,
+            "bush_edge_down_right": 0.5,
+            "bush_edge_right": 0.5,
+            "bush_edge_up_right": 0.5,
+            "path_edge_down_right": 0.5,
+            "path_edge_right": 0.5,
+            "path_edge_up_right": 0.5
+        },
+        "right": {
+            "grass_plain": 0.1,
+            "grass_small": 1.0,
+            "bush_edge_down_left": 0.5,
+            "bush_edge_left": 0.5,
+            "bush_edge_up_left": 0.5,
+            "path_edge_down_left": 0.5,
+            "path_edge_left": 0.5,
+            "path_edge_up_left": 0.5
+        }
+    },
+    "bush_edge_up_left": {
+        "up": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "down": {
+            "bush_edge_left": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_down_left": 0.8
+        },
+        "left": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "right": {
+            "bush_edge_up": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_up_right": 0.8
+        }
+    },
+    "bush_edge_up": {
+        "up": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "down": {
+            "bush_center": 1.0,
+            "bush_edge_down": 0.8
+        },
+        "left": {
+            "bush_edge_up_left": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_up": 0.8
+        },
+        "right": {
+            "bush_edge_up_right": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_up": 0.8
+        }
+    },
+    "bush_edge_up_right": {
+        "up": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "down": {
+            "bush_edge_right": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_down_right": 0.8
+        },
+        "left": {
+            "bush_edge_up": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_up_left": 0.8
+        },
+        "right": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        }
+    },
+    "bush_edge_left": {
+        "up": {
+            "bush_edge_up_left": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_left": 0.8
+        },
+        "down": {
+            "bush_edge_down_left": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_left": 0.8
+        },
+        "left": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "right": {
+            "bush_center": 1.0,
+            "bush_edge_right": 0.8
+        }
+    },
+    "bush_center": {
+        "up": {
+            "bush_center": 1.0,
+            "bush_edge_up": 0.9
+        },
+        "down": {
+            "bush_center": 1.0,
+            "bush_edge_down": 0.9
+        },
+        "left": {
+            "bush_center": 1.0,
+            "bush_edge_left": 0.9
+        },
+        "right": {
+            "bush_center": 1.0,
+            "bush_edge_right": 0.9
+        }
+    },
+    "bush_edge_right": {
+        "up": {
+            "bush_edge_up_right": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_right": 0.8
+        },
+        "down": {
+            "bush_edge_down_right": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_right": 0.8
+        },
+        "left": {
+            "bush_center": 1.0,
+            "bush_edge_left": 0.8
+        },
+        "right": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        }
+    },
+    "bush_edge_down_left": {
+        "up": {
+            "bush_edge_left": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_up_left": 0.8
+        },
+        "down": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "left": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "right": {
+            "bush_edge_down": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_down_right": 0.8
+        }
+    },
+    "bush_edge_down": {
+        "up": {
+            "bush_center": 1.0,
+            "bush_edge_up": 0.9
+        },
+        "down": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "left": {
+            "bush_edge_down_left": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_down": 0.8
+        },
+        "right": {
+            "bush_edge_down_right": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_down": 0.8
+        }
+    },
+    "bush_edge_down_right": {
+        "up": {
+            "bush_edge_right": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_up_right": 0.8
+        },
+        "down": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        },
+        "left": {
+            "bush_edge_down": 1.0,
+            "bush_center": 0.8,
+            "bush_edge_down_left": 0.8
+        },
+        "right": {
+            "grass_plain": 0.7,
+            "grass_small": 0.9
+        }
+    },
+    "path_edge_up_left": {
+        "up": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "down": {
+            "path_edge_left": 1.0,
+            "path_center": 0.8,
+            "path_edge_down_left": 0.8
+        },
+        "left": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "right": {
+            "path_edge_up": 1.0,
+            "path_center": 0.8,
+            "path_edge_up_right": 0.8
+        }
+    },
+    "path_edge_up": {
+        "up": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "down": {
+            "path_center": 1.0,
+            "path_edge_down": 0.9
+        },
+        "left": {
+            "path_edge_up_left": 1.0,
+            "path_center": 0.8,
+            "path_edge_up": 0.8
+        },
+        "right": {
+            "path_edge_up_right": 1.0,
+            "path_center": 0.8,
+            "path_edge_up": 0.8
+        }
+    },
+    "path_edge_up_right": {
+        "up": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "down": {
+            "path_edge_right": 1.0,
+            "path_center": 0.8,
+            "path_edge_down_right": 0.8
+        },
+        "left": {
+            "path_edge_up": 1.0,
+            "path_center": 0.8,
+            "path_edge_up_left": 0.8
+        },
+        "right": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        }
+    },
+    "path_edge_left": {
+        "up": {
+            "path_edge_up_left": 1.0,
+            "path_center": 0.8,
+            "path_edge_left": 0.8
+        },
+        "down": {
+            "path_edge_down_left": 1.0,
+            "path_center": 0.8,
+            "path_edge_left": 0.8
+        },
+        "left": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "right": {
+            "path_center": 1.0,
+            "path_edge_right": 0.9
+        }
+    },
+    "path_center": {
+        "up": {
+            "path_center": 1.0,
+            "path_edge_up": 0.4
+        },
+        "down": {
+            "path_center": 1.0,
+            "path_edge_down": 0.4
+        },
+        "left": {
+            "path_center": 1.0,
+            "path_edge_left": 0.4
+        },
+        "right": {
+            "path_center": 1.0,
+            "path_edge_right": 0.4
+        }
+    },
+    "path_edge_right": {
+        "up": {
+            "path_edge_up_right": 1.0,
+            "path_center": 0.8,
+            "path_edge_right": 0.8
+        },
+        "down": {
+            "path_edge_down_right": 1.0,
+            "path_center": 0.8,
+            "path_edge_right": 0.8
+        },
+        "left": {
+            "path_center": 1.0,
+            "path_edge_left": 0.8
+        },
+        "right": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        }
+    },
+    "path_edge_down_left": {
+        "up": {
+            "path_edge_left": 1.0,
+            "path_center": 0.8,
+            "path_edge_up_left": 0.8
+        },
+        "down": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "left": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "right": {
+            "path_edge_down": 1.0,
+            "path_center": 0.8,
+            "path_edge_down_right": 0.8
+        }
+    },
+    "path_edge_down": {
+        "up": {
+            "path_center": 1.0,
+            "path_edge_up": 0.9
+        },
+        "down": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "left": {
+            "path_edge_down_left": 1.0,
+            "path_center": 0.8,
+            "path_edge_down": 0.8
+        },
+        "right": {
+            "path_edge_down_right": 1.0,
+            "path_center": 0.8,
+            "path_edge_down": 0.8
+        }
+    },
+    "path_edge_down_right": {
+        "up": {
+            "path_edge_right": 1.0,
+            "path_center": 0.8,
+            "path_edge_up_right": 0.8
+        },
+        "down": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        },
+        "left": {
+            "path_edge_down": 1.0,
+            "path_center": 0.8,
+            "path_edge_down_left": 0.8
+        },
+        "right": {
+            "grass_plain": 1.0,
+            "grass_small": 0.9
+        }
+    }
+}
